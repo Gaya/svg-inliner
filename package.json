@@ -4,11 +4,11 @@
   "description": "Creates inline HTML <svg> from an external SVG (sprite) in an <img /> tag",
   "main": "svg-inliner.js",
   "scripts": {
-    "test": "mocha-phantomjs -R dot /test/index.html"
+    "test": "mocha-phantomjs -R dot ./test/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gaya/SVG-inliner.git"
+    "url": "https://github.com/Gaya/svg-inliner.git"
   },
   "keywords": [
     "svg",
@@ -19,7 +19,11 @@
   "author": "gaya",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/Gaya/SVG-inliner/issues"
+    "url": "https://github.com/Gaya/svg-inliner/issues"
   },
-  "homepage": "https://github.com/Gaya/SVG-inliner"
+  "homepage": "https://github.com/Gaya/svg-inliner",
+  "devDependencies": {
+    "phantomjs": "~1.9.7-14",
+    "mocha-phantomjs": "~3.5.0"
+  }
 }
