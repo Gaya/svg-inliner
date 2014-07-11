@@ -1,0 +1,25 @@
+{
+  "name": "svg-inliner",
+  "version": "0.0.1",
+  "description": "Creates inline HTML <svg> from an external SVG (sprite) in an <img /> tag",
+  "main": "svg-inliner.js",
+  "scripts": {
+    "test": "mocha-phantomjs -R dot /test/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gaya/SVG-inliner.git"
+  },
+  "keywords": [
+    "svg",
+    "svg-sprite",
+    "inline",
+    "html"
+  ],
+  "author": "gaya",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/Gaya/SVG-inliner/issues"
+  },
+  "homepage": "https://github.com/Gaya/SVG-inliner"
+}
