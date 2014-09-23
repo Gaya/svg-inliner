@@ -1,4 +1,3 @@
 SVG-inliner
 ===========
-
-Converts an &lt;img> tag with an external SVG (sprite) to inline HTML
+Creates inline HTML <svg> from an external SVG (sprite) in an <img /> tag
