@@ -1,6 +1,9 @@
 SVG-inliner
 ===========
-Creates inline HTML <svg> from an external SVG (sprite) in an <img /> tag
+Creates inline HTML <svg> from an external SVG (sprite) in an <img /> tag.
+
+It extracts the correct SVG element from an SVG sprite if the child's id is put after a `#` in the `src` attribute of
+the image.
 
 Single file usage
 -----------------
