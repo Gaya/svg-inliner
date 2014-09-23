@@ -11,10 +11,23 @@ SVGInliner.prototype.init = function () {
     this.replaceImages();
 };
 
+SVGInliner.prototype.isSVG = function (img) {
+    "use strict";
+    if (img.hasAttribute("src")) {
+        var splits = img.getAttribute("src").split(".");
+
+        return (splits[(splits.length - 1)].substr(0, 3) === "svg");
+    } else {
+        return false;
+    }
+};
+
 SVGInliner.prototype.replaceImages = function () {
     "use strict";
     for (var i = 0; i < this.elements.length; i++) {
-        this.images.push(new SVGImage(this.elements[i], this));
+        if (this.isSVG(this.elements[i])) {
+            this.images.push(new SVGImage(this.elements[i], this));
+        }
     }
 };
 
