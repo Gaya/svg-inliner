@@ -5,6 +5,14 @@ Creates inline HTML <svg> from an external SVG (sprite) in an <img /> tag.
 It extracts the correct SVG element from an SVG sprite if the child's id is put after a `#` in the `src` attribute of
 the image.
 
+Install
+-------
+If you want to use SVG inliner in node.js and include with CommonJs:
+
+    npm install svg-inliner
+
+Or download the `svg-inliner.js` JavaScript file in the root and place in your project.
+
 Single file usage
 -----------------
 
