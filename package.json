@@ -1,6 +1,6 @@
 {
   "name": "svg-inliner",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Creates inline HTML <svg> from an external SVG (sprite) in an <img /> tag",
   "main": "svg-inliner.js",
   "repository": {

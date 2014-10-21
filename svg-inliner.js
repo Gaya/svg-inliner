@@ -70,7 +70,7 @@ SVGImage.prototype.getData = function (cb) {
 
 SVGImage.prototype.createSVG = function (element) {
     "use strict";
-    this.element = element;
+    this.element = (element.firstChild ? element.firstChild : element);
 
     if (this.hasHash()) {
         this.filterSVG();
